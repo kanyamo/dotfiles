@@ -10,3 +10,9 @@ kanyamo の dotfiles です。
 git clone https://github.com/kanyamo/dotfiles.git
 bash setup.sh
 ```
+
+aliases.zsh を .zshrc で読み込む設定を追加してください:
+
+```sh
+echo "source ~/.aliases.zsh" >> ~/.zshrc
+```
