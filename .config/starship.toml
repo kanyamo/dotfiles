@@ -9,9 +9,10 @@ $git_status\
 $git_metrics\
 [](fg:#2f3039)\
 $fill\
-[](fg:#9ece6a bg:#2f3039)\
+[](fg:green)\
 $python\
-[](fg:#9ece6a)\
+$nodejs\
+[](fg:green)\
 \n$character\
 """
 
@@ -77,13 +78,18 @@ disabled = false
 
 [fill]
 symbol = '─'
-style = 'blue'
+style = 'fg:#2f3039'
 
 [python]
 symbol = ' ' # nf-dev-python
 format = '[ ${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)'
 pyenv_version_name = false
-style = 'fg:#2f3039 bg:#9ece6a'
+style = 'fg:#2f3039 bg:green'
+
+[nodejs]
+symbol = ' ' # nf-dev-nodejs
+format = '[ ${symbol}${version} ]($style)'
+style = 'fg:#2f3039 bg:green'
 
 [direnv]
 format = '[$symbol$allowed]($style) '
