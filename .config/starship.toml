@@ -65,7 +65,7 @@ format = "[$stashed](fg:cyan $style)[$conflicted$deleted](fg:red $style)[$rename
 modified = " $count "
 renamed = " $count "
 staged = " $count "
-stashed = " $count"
+stashed = " $count "
 untracked = "? $count "
 up_to_date = " "
 
