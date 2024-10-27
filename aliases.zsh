@@ -9,4 +9,5 @@ alias gs="git status"
 alias gcm="git commit -m"
 alias update="brew update && brew upgrade && brew cleanup && brew doctor"
 alias \$=""  # コピペしてきたときに $ があってもエラーにならないようにする
+alias %=""  # コピペしてきたときに % があってもエラーにならないようにする
 alias ls="ls --color=auto"
