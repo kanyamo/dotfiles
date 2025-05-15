@@ -2,6 +2,7 @@
 alias zshrc="code ~/.zshrc"
 alias zshrc-code="code ~/.zshrc"
 alias zshrc-cursor="cursor ~/.zshrc"
+alias zshrc-windsurf="windsurf ~/.zshrc"
 alias ...="cd ../.."
 alias ll="ls -l"
 alias la="ls -a"
